@@ -1,0 +1,103 @@
+/* Allgemeine Stile */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fdf5e6;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Hauptüberschrift */
+h1 {
+    text-align: center;
+    background-color: #ff7043;
+    color: white;
+    padding: 15px 0;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+}
+
+/* Unterüberschriften */
+h2, h3, h4 {
+    color: #ff7043;
+    margin-top: 20px;
+    border-bottom: 2px solid #ff7043;
+    padding-bottom: 5px;
+}
+
+/* Bilder */
+img {
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+}
+
+/* Textabsätze */
+p {
+    margin: 10px 0;
+    line-height: 1.8;
+    text-align: justify;
+}
+
+/* Zutatenliste */
+ul {
+    list-style-type: circle;
+    margin: 10px 0 20px 20px;
+    padding: 0;
+}
+
+li {
+    margin: 5px 0;
+}
+
+/* Schritte */
+ol {
+    margin: 10px 0 20px 20px;
+    padding: 0;
+}
+
+ol li {
+    margin: 10px 0;
+}
+
+/* Hervorhebungen */
+strong {
+    color: #ff7043;
+    font-weight: bold;
+}
+
+em {
+    color: #333;
+    font-style: italic;
+}
+
+/* Layout und Struktur */
+body > h1 {
+    margin-bottom: 30px;
+}
+
+h4 + p, h4 + ol {
+    margin-top: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    img {
+        width: 90%;
+    }
+
+    ul, ol {
+        margin-left: 10px;
+    }
+}
